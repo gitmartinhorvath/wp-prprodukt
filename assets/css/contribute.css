@@ -4,5 +4,101 @@ a.link{
 a.link:hover{
     color: #3DBFBB;
 }
-/* forms */
+/* WooCommerce */
 
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 0px 20px #00000012;
+    box-shadow: 0px 0px 20px #00000012;
+    padding: 8px;
+    background: #fff;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    padding: .5em 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #081828;
+    line-height: 1.5;
+}
+
+
+
+.woocommerce ul.products li.product .price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #3DBFBB;
+    display: inline-block;
+}
+
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30%;
+    background-color: #FBA92A;
+    color: #fff;
+    border: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    margin-right: 7px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.woo-contanier-21{
+    max-width: 21%; border-right: 1px solid #eee;
+}
+.woo-contanier-79{
+    max-width: 79%;
+}
+
+@media (max-width: 575.98px) { 
+    .section-title.align-left {
+        padding: 0;
+        padding-right: 0px !important;
+    }
+
+    .woo-contanier-21{
+        max-width: 100%;
+    }
+    .woo-contanier-79{
+        max-width: 100%;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    .woo-contanier-21{
+        max-width: 21%; border-right: 0px solid #eee;
+    }
+    .woo-contanier-79{
+        max-width: 79%; border-right: 0px solid #eee;
+    }
+ }
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    
+ }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width

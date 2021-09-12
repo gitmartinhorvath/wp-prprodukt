@@ -1,17 +1,23 @@
 <?php get_header( 'woocommerce' ); ?>
 
         <!-- End Header Area -->
+
+        <style>
+            .woo-contanier{
+                max-width: 21%; border-right: 1px solid #eee;
+            }
+        </style>
         <section>
             <div class=" container">
                 <div class="row">
-                    <div class="d-none d-lg-block" style=" max-width: 21%; border-right: 1px solid #eee;">
+                    <div class="d-none d-lg-block woo-contanier">
                         <div class="product-details-info">
                             <div class="" style="margin: 20px 0 0 0"><?php echo do_shortcode('[iks_menu id="19"]'); ?></div>
                         </div>
                     </div>                     
-                    <div class="" style=" max-width: 79%; margin-bottom: 90px;"> 
+                    <div class=" woo-contanier-79"> 
                         <div class="trending-product section" style="background-color: #FFF">
-                            <div class="container">
+                            <div class="">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="section-title align-left" style="padding-bottom: 20px;">
@@ -23,7 +29,7 @@
                                
 
                                 <!-- product_content -->                                 
-                                <div style="margin: 0 20px;"> 
+                                <div> 
                                     <?php
                                         if ( woocommerce_product_loop() ) {
 
@@ -120,54 +126,7 @@
                 </div>
             </div>
         </section>
-        <!-- Start Shipping Info -->
-        <section class="shipping-info">
-            <div class="container">
-                <ul>
-                    <!-- Free Shipping -->
-                    <li>
-                        <div class="media-icon">
-                            <i class="lni lni-delivery"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5><?php _e( 'Free Shipping', 'proprodukt' ); ?></h5>
-                            <span><?php _e( 'On order over $99', 'proprodukt' ); ?></span>
-                        </div>
-                    </li>
-                    <!-- Money Return -->
-                    <li>
-                        <div class="media-icon">
-                            <i class="lni lni-support"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5><?php _e( '24/7 Support.', 'proprodukt' ); ?></h5>
-                            <span><?php _e( 'Live Chat Or Call.', 'proprodukt' ); ?></span>
-                        </div>
-                    </li>
-                    <!-- Support 24/7 -->
-                    <li>
-                        <div class="media-icon">
-                            <i class="lni lni-credit-cards"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5><?php _e( 'Online Payment.', 'proprodukt' ); ?></h5>
-                            <span><?php _e( 'Secure Payment Services.', 'proprodukt' ); ?></span>
-                        </div>
-                    </li>
-                    <!-- Safe Payment -->
-                    <li>
-                        <div class="media-icon">
-                            <i class="lni lni-reload"></i>
-                        </div>
-                        <div class="media-body">
-                            <h5><?php _e( 'Easy Return.', 'proprodukt' ); ?></h5>
-                            <span><?php _e( 'Hassle Free Shopping.', 'proprodukt' ); ?></span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- End Shipping Info -->
+       
         <!-- Start Footer Area -->        
 
 <?php get_footer( 'woocommerce' ); ?>
