@@ -6,8 +6,7 @@
                 <div class="row">
                     <div class="d-none d-lg-block" style=" max-width: 21%; border-right: 1px solid #eee;">
                         <div class="product-details-info">
-                            <div class="" style="margin: 20px 0 0 0">
-                                <h<?php echo do_shortcode('[iks_menu id="2350"]'); ?></div>
+                            <div class="" style="margin: 20px 0 0 0"><?php echo do_shortcode('[iks_menu id="19"]'); ?></div>
                         </div>
                     </div>                     
                     <div class="" style=" max-width: 79%; margin-bottom: 90px;"> 
