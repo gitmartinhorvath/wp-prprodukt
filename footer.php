@@ -13,7 +13,7 @@
                                     <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_footer.svg" alt="#"> </a> 
                                 </div>                                 
                             </div>                             
-                            <div class="col-lg-9 col-md-8 col-12"> 
+                            <div class="col-lg-9 col-md-8 col-12 d-none d-sm-block"> 
                                 <div class="footer-newsletter"> 
                                     <h4 class="title">  <?php _e( 'Prihlásiť sa ku odberu noviniek', 'proprodukt' ); ?> <span><?php _e( 'Získajte všetky najnovšie informácie, výpredaje a ponuky.', 'proprodukt' ); ?></span> </h4> 
                                     <div class="newsletter-form-head"> 
