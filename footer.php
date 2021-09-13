@@ -20,7 +20,7 @@
                                         <?php echo do_shortcode(' [contact-form-7 id="2310" title="Bez názvu"] '); ?>
                                     </div>                                     
                                 </div>                                 
-                            </div>                             
+                            </div>                                
                         </div>                         
                     </div>                     
                 </div>                 

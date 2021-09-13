@@ -1,19 +1,17 @@
 <?php get_header( 'woocommerce' ); ?>
 
         <!-- End Header Area -->
-
-        <style>
-            .woo-contanier{
-                max-width: 21%; border-right: 1px solid #eee;
-            }
-        </style>
         <section>
             <div class=" container">
                 <div class="row">
-                    <div class="d-none d-lg-block woo-contanier">
-                        <div class="product-details-info">
-                            <div class="" style="margin: 20px 0 0 0"><?php echo do_shortcode('[iks_menu id="19"]'); ?></div>
-                        </div>
+                    <div class="d-none d-lg-block woo-contanier-21">
+                        <!-- widget-area -->
+                        <div id="secondary-2" class="widget-area sidebar" role="complementary">
+                                <?php do_action( 'before_sidebar' ); ?>
+                                <?php if ( ! dynamic_sidebar( 'sidebar-5' ) ) : ?>
+                                <?php endif; // end sidebar widget area ?>
+                        </div><!-- #secondary .widget-area -->
+                        <!--End: widget-area -->
                     </div>                     
                     <div class=" woo-contanier-79"> 
                         <div class="trending-product section" style="background-color: #FFF">
@@ -78,55 +76,59 @@
                                 </div>
                                 <!-- -product_content -->                                 
                                 <!-- ////////////////////////////////// --> 
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6 col-12">
-                                        <!-- Start Single Product -->
-                                        <div class="single-product">
-                                            <div class="product-image">
-                                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-1.jpg" alt="#">
-                                                <div class="button">
-                                                    <a href="product-details.html" class="btn"><i class="lni lni-cart"></i> <?php _e( 'Add to Cart', 'proprodukt' ); ?></a>
-                                                </div>
-                                            </div>
-                                            <div class="product-info">
-                                                <span class="category"><?php _e( 'Watches', 'proprodukt' ); ?></span>
-                                                <h4 class="title"> <a href="product-grids.html"><?php _e( 'Xiaomi Mi Band 5', 'proprodukt' ); ?></a> </h4>
-                                                <ul class="review">
-                                                    <li>
-                                                        <i class="lni lni-star-filled"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="lni lni-star-filled"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="lni lni-star-filled"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="lni lni-star-filled"></i>
-                                                    </li>
-                                                    <li>
-                                                        <i class="lni lni-star"></i>
-                                                    </li>
-                                                    <li>
-                                                        <span><?php _e( '4.0 Review(s)', 'proprodukt' ); ?></span>
-                                                    </li>
-                                                </ul>
-                                                <div class="price">
-                                                    <span><?php _e( '$199.00', 'proprodukt' ); ?></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Product -->
-                                    </div>
-                                   
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-       
+        <section class="shipping-info" style="background-color: #fff;"> 
+            <div class="container"> 
+                <ul> 
+                    <!-- Free Shipping -->                     
+                    <li> 
+                        <div class="media-icon"> 
+                            <i class="lni lni-delivery"></i> 
+                        </div>                         
+                        <div class="media-body"> 
+                            <h5>Free Shipping</h5> 
+                            <span>On order over $99</span> 
+                        </div>                         
+                    </li>                     
+                    <!-- Money Return -->                     
+                    <li> 
+                        <div class="media-icon"> 
+                            <i class="lni lni-support"></i> 
+                        </div>                         
+                        <div class="media-body"> 
+                            <h5>24/7 Support.</h5> 
+                            <span>Live Chat Or Call.</span> 
+                        </div>                         
+                    </li>                     
+                    <!-- Support 24/7 -->                     
+                    <li> 
+                        <div class="media-icon"> 
+                            <i class="lni lni-credit-cards"></i> 
+                        </div>                         
+                        <div class="media-body"> 
+                            <h5>Online Payment.</h5> 
+                            <span>Secure Payment Services.</span> 
+                        </div>                         
+                    </li>                     
+                    <!-- Safe Payment -->                     
+                    <li> 
+                        <div class="media-icon"> 
+                            <i class="lni lni-reload"></i> 
+                        </div>                         
+                        <div class="media-body"> 
+                            <h5>Easy Return.</h5> 
+                            <span>Hassle Free Shopping.</span> 
+                        </div>                         
+                    </li>                     
+                </ul>                 
+            </div>             
+        </section>
+               
         <!-- Start Footer Area -->        
-
-<?php get_footer( 'woocommerce' ); ?>
+        <?php get_footer( 'home' ); ?>

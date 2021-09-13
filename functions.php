@@ -100,6 +100,7 @@ function proprodukt_init() {
     /* Pinegrow generated Taxonomies End */
 
 }
+
 endif; // proprodukt_setup
 
 add_action( 'init', 'proprodukt_init' );
@@ -349,6 +350,8 @@ function proprodukt_customize_register( $wp_customize ) {
     /* Pinegrow generated Customizer Controls End */
 
 }
+
+
 add_action( 'customize_register', 'proprodukt_customize_register' );
 endif;// proprodukt_customize_register
 
@@ -477,4 +480,17 @@ require_once "inc/bootstrap/wp_bootstrap4_navwalker.php";
 require_once "inc/wp_smart_navwalker.php";
 
     /* Pinegrow generated Include Resources End */
+
+    register_sidebar( array(
+            'name' => __( 'Content Pages Right', 'ready_ecommerce' ),
+            'id' => 'sidebar-5',
+            'description' => __( 'Right sidebar area for content pages only. Not availabe at products or catalogue pages', 'ready_ecommerce' ),
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => "</aside>",
+            'before_title' => '<h2 class="widget-title">',
+            'after_title' => '</h2>',
+        ) );
+    
+
+
 ?>
