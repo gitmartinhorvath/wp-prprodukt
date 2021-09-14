@@ -1,7 +1,7 @@
 <?php get_header( 'page' ); ?>
 
 <!-- Start Item Details -->         
-<section class="item-details section" style="padding: 45px 0 90px 0;"> 
+<section class="item-details section co-wp-page"> 
     <div class="container"> 
         <div class="row"> 
             <!-- site content -->                     

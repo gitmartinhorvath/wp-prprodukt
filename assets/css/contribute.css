@@ -63,6 +63,16 @@ button, input, optgroup, select, textarea {
     padding: 0px 20px;
     color: #fff;
 }
+/*page*/
+.co-wp-page{
+    padding: 45px 0 90px 0;
+}
+.lni-angle-double-right::before {
+    content: "\ea14";
+    position: relative;
+    top: 1px;
+    padding: 5px;
+}
 /* WooCommerce */
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
