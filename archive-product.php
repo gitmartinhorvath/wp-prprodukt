@@ -15,7 +15,7 @@
                     </div>                     
                     <div class=" woo-contanier-79"> 
                         <div class="trending-product section" style="background-color: #FFF">
-                            <div class="">
+                            <div class=" se-co-woo">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="section-title align-left" style="padding-bottom: 20px;">
