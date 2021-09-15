@@ -186,7 +186,7 @@
         </div>         
         <!-- End Header Bottom -->         
         <!-- Start Breadcrumbs -->         
-        <div class="breadcrumbs" uk-sticky="show-on-up: true"> 
+        <div class="breadcrumbs d-none d-sm-block" uk-sticky="show-on-up: true"> 
             <div class="container"> 
                 <div class="row align-items-center"> 
                     <div class="col-lg-6 col-md-6 col-12"> 

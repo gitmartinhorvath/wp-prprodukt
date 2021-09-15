@@ -8,7 +8,7 @@ a.link:hover{
 /* forms */
 [type=submit]:not(:disabled){
  display: inline-block;
-    text-transform: capitalize;
+    text-transform: normal;
     font-size: 14px;
     font-weight: 600;
     padding: 13px 30px;
@@ -55,15 +55,45 @@ button, input, optgroup, select, textarea {
 }
  input, textarea {
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.308);
+    background-color: #eee;
     border-radius: 4px;
     width: inherit;
     display: inline-block;
     border: none;
-    padding: 0px 20px;
-    color: #fff;
+    padding: 15px 20px;
+    color: #000;
 }
+label {
+    display: block;
+}
+
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 300px;
+    min-height: 50px;
+}
+/*page*/
+.co-wp-page{
+    padding: 45px 0 90px;
+}
+.lni-angle-double-right::before{
+    padding: 0 5px;
+    position: relative;
+    top: 1px;
+}
+
 /* WooCommerce */
+
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    min-width: 140px;
+}
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
     border: 1px solid #eee;
@@ -98,7 +128,7 @@ button, input, optgroup, select, textarea {
 
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
     display: inline-block;
-    text-transform: capitalize;
+    text-transform: normal;
     font-size: 14px;
     font-weight: 600;
     padding: 10px 30%;
@@ -118,7 +148,7 @@ button, input, optgroup, select, textarea {
 
 .woocommerce a.added_to_cart{
     display: inline-block;
-    text-transform: capitalize;
+    text-transform: normal;
     font-size: 14px;
     font-weight: 600;
     padding: 10px 35%;
@@ -146,7 +176,7 @@ button, input, optgroup, select, textarea {
 
 .section {
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
     position: relative;
     padding-left: 0px !important;
 }
@@ -163,6 +193,11 @@ a {
     color: #444;
     text-decoration: none;
 }
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: #f26622;
+    color: #fff;
+}
 .woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span {
     margin: 0;
     text-decoration: none;
@@ -177,6 +212,64 @@ a {
 .se-co-woo{
     padding: 25px 25px;
 }
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    display: inline-block;
+    text-transform: normal;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 100px;
+    background-color: #FBA92A;
+    color: #fff;
+    border: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    margin-right: 7px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: #fba92a;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.woocommerce .quantity .qty {
+    width: 3.631em;
+    text-align: center;
+    color: black;
+    background-color: ;
+}
+
+.woocommerce-info {
+    border-top-color: #fba92a;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    min-width: 250px;
+}
+
+
+.single-product {
+    margin-top: 0px;
+    padding: 0px;
+}
+
 
 
 @media (max-width: 575.98px) { 
@@ -194,11 +287,24 @@ a {
     .se-co-woo{
         padding: 10px 10px;
     }
+    .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    padding: 0px 60px;
+    
+    }
+
+    .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    min-width: 100%;
+}
 
 }
 
 
-// Small devices (landscape phones, less than 768px)
+
 @media (max-width: 767.98px) { 
     .woo-contanier-21{
         max-width: 21%; border-right: 0px solid #eee;
@@ -206,19 +312,22 @@ a {
     .woo-contanier-79{
         max-width: 79%; border-right: 0px solid #eee;
     }
- }
+    .woocommerce #content table.cart td.actions .coupon .button, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon input, .woocommerce table.cart td.actions .coupon .button, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce table.cart td.actions .coupon input, .woocommerce-page #content table.cart td.actions .coupon .button, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon input, .woocommerce-page table.cart td.actions .coupon .button, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon input {
+    width: 95%;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    margin: 8px 8px;
+    }
+}
 
 
-// Medium devices (tablets, less than 992px)
+
 @media (max-width: 991.98px) { 
     
 
 }
 
-// Large devices (desktops, less than 1200px)
+
 @media (max-width: 1199.98px) { 
     
  }
-
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
