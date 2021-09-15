@@ -1,13 +1,18 @@
 <!DOCTYPE html> 
-<!--  Converted from HTML to WordPress with Pinegrow Theme Converter for WordPress. https://pinegrow.com/theme-converter-for-wordpress  -->
+<!--  Converted from HTML to WordPress -- www.martinhorvath.sk -->
+<!--  DESIGNED & DEVELOPED by martinhorvath.sk
+            
+        Website:        http://martinhorvath.sk/
+        Email:          martinhorvath@outlook.sk
+-->
 <html class="no-js" <?php language_attributes(); ?>> 
     <head> 
         <meta charset="<?php bloginfo( 'charset' ); ?>"/> 
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>                   
-        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="author" content="www.martinhorvath.sk"> 
         <!-- ========================= CSS here ========================= -->                                                               
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-        <meta content="Pinegrow Theme Converter for WordPress" name="generator">
         <?php wp_head(); ?>
     </head>     
     <body class="<?php echo implode(' ', get_body_class()); ?>">
@@ -57,17 +62,17 @@
                                 <!-- Hard Wp -->                                 
                                 <div class="top-end"> 
                                     <div class="user"> 
-                                        <a href="#"></a>
+                                        <a href="https://www.proprodukt.sk/moj-ucet/"></a>
                                         <i class="lni lni-user"></i>
                                         <?php _e( 'Môj učet', 'proprodukt' ); ?>
                                     </a>                                     
                                 </div>                                 
                                 <ul class="user-login"> 
                                     <li> 
-                                        <a href="#"><?php _e( 'Prihlásenie', 'proprodukt' ); ?></a> 
+                                        <a href="https://www.proprodukt.sk/moj-ucet/"><?php _e( 'Prihlásenie', 'proprodukt' ); ?></a> 
                                     </li>                                     
                                     <li> 
-                                        <a href="#"><?php _e( 'Registrovať sa', 'proprodukt' ); ?> </a> 
+                                        <a href="https://www.proprodukt.sk/moj-ucet/"><?php _e( 'Registrovať sa', 'proprodukt' ); ?> </a> 
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
