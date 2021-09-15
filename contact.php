@@ -26,7 +26,12 @@ Template Name: Kontakt
                                 <div class="co-contact-logo"> 
                                     <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT.svg" alt="Logo" style=" max-height: 80px;"> </a> 
                                 </div>                                 
+<<<<<<< HEAD
                             </div>                                                          
+=======
+                            </div>                             
+                                                            
+>>>>>>> 0741f5ec46eddfff515d32a019678aaaf84b86d0
                         </div>                         
                     </div>                     
                 </div>                 
