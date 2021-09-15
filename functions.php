@@ -36,12 +36,6 @@ function proprodukt_setup() {
      */
     /* Pinegrow generated Register Menus Begin */
 
-    register_nav_menu(  'category_menu', __( 'Category menu', 'proprodukt' )  );
-
-    register_nav_menu(  'footermenu1', __( 'footermenu1', 'proprodukt' )  );
-
-    register_nav_menu(  'footermenu2', __( 'footermenu2', 'proprodukt' )  );
-
     /* Pinegrow generated Register Menus End */
     
 /*

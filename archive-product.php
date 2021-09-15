@@ -131,4 +131,4 @@
         </section>
                
         <!-- Start Footer Area -->        
-        <?php get_footer( 'home' ); ?>
+        <?php get_footer( '' ); ?>

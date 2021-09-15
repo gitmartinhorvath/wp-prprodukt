@@ -13,14 +13,7 @@
                                     <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_footer.svg" alt="#"> </a> 
                                 </div>                                 
                             </div>                             
-                            <div class="col-lg-9 col-md-8 col-12 d-none d-sm-block"> 
-                                <div class="footer-newsletter"> 
-                                    <h4 class="title">  <?php _e( 'Prihlásiť sa ku odberu noviniek', 'proprodukt' ); ?> <span><?php _e( 'Získajte všetky najnovšie informácie, výpredaje a ponuky.', 'proprodukt' ); ?></span> </h4> 
-                                    <div class="newsletter-form-head"> 
-                                        <?php echo do_shortcode(' [contact-form-7 id="2310" title="Bez názvu"] '); ?>
-                                    </div>                                     
-                                </div>                                 
-                            </div>                                
+                                                            
                         </div>                         
                     </div>                     
                 </div>                 
@@ -71,20 +64,16 @@
                                 <!-- Single Widget -->                                 
                                 <div class="single-footer f-link"> 
                                     <!-- cunsom -->                                     
-                                    <h3><?php echo get_theme_mod( 'footer-title-1', __( 'Information', 'proprodukt' ) ); ?></h3> 
-                                    <!-- cunsom menu_footer_1 -->                                     
-                                    <?php if ( has_nav_menu( 'footermenu1' ) ) : ?>
-                                        <?php
-                                            PG_Smart_Walker_Nav_Menu::$options['template'] = '<li id="{ID}" class="{CLASSES}">
-                                                                                        <a {ATTRS}>{TITLE}</a>
-                                                                                    </li>';
-                                            wp_nav_menu( array(
-                                                'container' => '',
-                                                'theme_location' => 'footermenu1',
-                                                'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-                                                'walker' => new PG_Smart_Walker_Nav_Menu()
-                                        ) ); ?>
-                                    <?php endif; ?> 
+                                    <h3>Shop Department</h3> 
+                                    
+                                     <ul>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                    </ul>                                     
+                                    
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
                             </div>                             
@@ -92,20 +81,15 @@
                                 <!-- Single Widget -->                                 
                                 <div class="single-footer f-link"> 
                                     <!-- cunsom -->                                     
-                                    <h3><?php echo get_theme_mod( 'footer-title-2', __( 'Shop Departments', 'proprodukt' ) ); ?></h3> 
-                                    <!-- cunsom menu_footer_2 -->                                     
-                                    <?php if ( has_nav_menu( 'footermenu2' ) ) : ?>
-                                        <?php
-                                            PG_Smart_Walker_Nav_Menu::$options['template'] = '<li id="{ID}" class="{CLASSES}">
-                                                                                        <a {ATTRS}>{TITLE}</a>
-                                                                                    </li>';
-                                            wp_nav_menu( array(
-                                                'container' => '',
-                                                'theme_location' => 'footermenu2',
-                                                'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-                                                'walker' => new PG_Smart_Walker_Nav_Menu()
-                                        ) ); ?>
-                                    <?php endif; ?> 
+                                    <h3>Shop Department</h3> 
+                                                                        
+                                     <ul>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Computers & Accessories</a></li>
+                                    </ul>
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
                             </div>                             
