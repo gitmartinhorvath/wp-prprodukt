@@ -301,9 +301,9 @@ h2 {
     min-width: 100%;
 }
 
+h3{
+    font-size: 22px !important;
 }
-
-
 
 @media (max-width: 767.98px) { 
     .woo-contanier-21{
