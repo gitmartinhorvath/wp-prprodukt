@@ -64,14 +64,12 @@
                                 <!-- Single Widget -->                                 
                                 <div class="single-footer f-link"> 
                                     <!-- cunsom -->                                     
-                                    <h3>Shop Department</h3> 
+                                    <h3>Všeobené informácie</h3> 
                                     
                                      <ul>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="https://www.proprodukt.sk/garancia-vratenia-penazi/">Garancia vrátenia peňazí</a></li>
+                                        <li><a href="https://www.proprodukt.sk/obchodne-podmienky/">Obchodné podmienky</a></li>
+                                        <li><a href="https://www.proprodukt.sk/wp-content/uploads/2020/11/Formular-na-odstupenie-od-zmluvy-proprodukt.sk-.pdf">FORMULÁR NA ODSTÚPENIE OD ZMLUVY</a></li>
                                     </ul>                                     
                                     
                                 </div>                                 
@@ -81,14 +79,12 @@
                                 <!-- Single Widget -->                                 
                                 <div class="single-footer f-link"> 
                                     <!-- cunsom -->                                     
-                                    <h3>Shop Department</h3> 
+                                    <h3>Môj účet</h3> 
                                                                         
                                      <ul>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
-                                        <li><a href="">Computers & Accessories</a></li>
+                                        <li><a href="">Objednávky</a></li>
+                                        <li><a href="">Detaily účtu</a></li>
+                                        <li><a href="">Zabudnuté heslo</a></li>
                                     </ul>
                                 </div>                                 
                                 <!-- End Single Widget -->                                 

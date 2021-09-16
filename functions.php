@@ -28,7 +28,7 @@ function proprodukt_setup() {
     // Add menus.
     register_nav_menus( array(
         'primary' => __( 'Primary Menu', 'proprodukt' ),
-        'social'  => __( 'Social Links Menu', 'proprodukt' ),
+        
     ) );
 
 /*
@@ -141,15 +141,15 @@ function proprodukt_customize_register( $wp_customize ) {
     /* Pinegrow generated Customizer Controls Begin */
 
     $wp_customize->add_section( 'sehero', array(
-        'title' => __( 'se-hero', 'proprodukt' )
+        'title' => __( 'Hlavný nadpis a podnadpis ', 'proprodukt' ),'priority' => '1'
     ));
 
     $wp_customize->add_section( 'catergory', array(
-        'title' => __( 'Catergory', 'proprodukt' )
+        'title' => __( 'Nadpis a podnadpis kategórii produktov', 'proprodukt' ),'priority' => '2'
     ));
 
     $wp_customize->add_section( 'cta', array(
-        'title' => __( 'Call Action', 'proprodukt' )
+        'title' => __( 'Call Action', 'proprodukt' ),'priority' => '3'
     ));
 
     $wp_customize->add_section( 'footer', array(
@@ -164,7 +164,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'Title', array(
-        'label' => __( 'title', 'proprodukt' ),
+        'label' => __( 'Zmena hlavného nadpisu ', 'proprodukt' ),
         'type' => 'text',
         'section' => 'sehero'
     ));
@@ -176,7 +176,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'subtitle', array(
-        'label' => __( 'Sub title', 'proprodukt' ),
+        'label' => __( 'Zmena podnapisu ', 'proprodukt' ),
         'type' => 'text',
         'section' => 'sehero'
     ));
@@ -187,7 +187,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'button-show', array(
-        'label' => __( 'button-show', 'proprodukt' ),
+        'label' => __( 'Zobraziť tlačilo ', 'proprodukt' ),
         'type' => 'checkbox',
         'section' => 'sehero'
     ));
@@ -198,7 +198,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'button-txt', array(
-        'label' => __( 'button-txt', 'proprodukt' ),
+        'label' => __( 'Text tlačidla', 'proprodukt' ),
         'type' => 'text',
         'section' => 'sehero'
     ));
@@ -209,7 +209,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'button-link', array(
-        'label' => __( 'button-link', 'proprodukt' ),
+        'label' => __( 'Link tlačidla v tvare (https://www.google.com/)', 'proprodukt' ),
         'type' => 'url',
         'section' => 'sehero'
     ));
@@ -221,7 +221,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'titile-category', array(
-        'label' => __( 'titile-category', 'proprodukt' ),
+        'label' => __( 'Nadpis kategórii ', 'proprodukt' ),
         'type' => 'textarea',
         'section' => 'catergory'
     ));
@@ -232,7 +232,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'subtitle-category-show', array(
-        'label' => __( 'subtitle-category-show', 'proprodukt' ),
+        'label' => __( 'Zobraziť podnadpis ', 'proprodukt' ),
         'type' => 'checkbox',
         'section' => 'catergory'
     ));
@@ -243,7 +243,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'subtitle-category', array(
-        'label' => __( 'subtitle-category', 'proprodukt' ),
+        'label' => __( 'Podnadpis', 'proprodukt' ),
         'type' => 'textarea',
         'section' => 'catergory'
     ));
@@ -255,7 +255,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'title-cta', array(
-        'label' => __( 'title', 'proprodukt' ),
+        'label' => __( 'Nadpis', 'proprodukt' ),
         'type' => 'textarea',
         'section' => 'cta'
     ));
@@ -267,7 +267,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'subtitle-cta', array(
-        'label' => __( 'subtitle-cta', 'proprodukt' ),
+        'label' => __( 'Podnadpis', 'proprodukt' ),
         'type' => 'textarea',
         'section' => 'cta'
     ));
@@ -278,7 +278,7 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'subtitle-cta-show', array(
-        'label' => __( 'subtitle-cta-show', 'proprodukt' ),
+        'label' => __( 'Zobraziť podnadpis ', 'proprodukt' ),
         'type' => 'checkbox',
         'section' => 'cta'
     ));
@@ -289,14 +289,14 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'button-show-cta', array(
-        'label' => __( 'button-show-cta', 'proprodukt' ),
+        'label' => __( 'Zobraziť tlačilo ', 'proprodukt' ),
         'type' => 'checkbox',
         'section' => 'cta'
     ));
 
     $wp_customize->add_setting( 'button-txt-cta', array(
         'type' => 'theme_mod',
-        'default' => __( 'Purchase Now', 'proprodukt' ),
+        'default' => __( 'Text tlačidla', 'proprodukt' ),
         'sanitize_callback' => $pgwp_sanitize
     ));
 
@@ -312,34 +312,14 @@ function proprodukt_customize_register( $wp_customize ) {
     ));
 
     $wp_customize->add_control( 'button-link-cta', array(
-        'label' => __( 'button-link-cta', 'proprodukt' ),
+        'label' => __( 'Link tlačidla v tvare (https://www.google.com/)', 'proprodukt' ),
         'type' => 'url',
         'section' => 'cta'
     ));
 
-    $wp_customize->add_setting( 'footer-title-1', array(
-        'type' => 'theme_mod',
-        'default' => __( 'Information', 'proprodukt' ),
-        'sanitize_callback' => $pgwp_sanitize
-    ));
+   
 
-    $wp_customize->add_control( 'footer-title-1', array(
-        'label' => __( 'footer-title-1', 'proprodukt' ),
-        'type' => 'text',
-        'section' => 'footer'
-    ));
-
-    $wp_customize->add_setting( 'footer-title-2', array(
-        'type' => 'theme_mod',
-        'default' => __( 'Shop Departments', 'proprodukt' ),
-        'sanitize_callback' => $pgwp_sanitize
-    ));
-
-    $wp_customize->add_control( 'footer-title-2', array(
-        'label' => __( 'footer-title-1', 'proprodukt' ),
-        'type' => 'text',
-        'section' => 'footer'
-    ));
+   
 
     /* Pinegrow generated Customizer Controls End */
 

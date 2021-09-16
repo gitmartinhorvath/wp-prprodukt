@@ -34,7 +34,7 @@
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg1.jpg');"> 
                             <div class="content"> 
                                 <h2> <span><?php _e( 'Pre domácnosti', 'proprodukt' ); ?></span> <h3><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
-                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="product-grids.html"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
+                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/product-category/cistaca/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
                         <!-- End Small Banner -->                                 
@@ -44,7 +44,7 @@
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg2.jpg');"> 
                             <div class="content"> 
                                 <h2> <span><?php _e( 'Pre firmi', 'proprodukt' ); ?></span> <h3><?php _e( 'Profesionálna', 'proprodukt' ); ?><br><?php _e( 'čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
-                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="product-grids.html"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
+                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/product-category/profi/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
                         <!-- End Small Banner -->                                 
@@ -256,8 +256,8 @@
                     <i class="lni lni-delivery"></i> 
                 </div>                         
                 <div class="media-body"> 
-                    <h5><?php _e( 'Free Shipping', 'proprodukt' ); ?></h5> 
-                    <span><?php _e( 'On order over $99', 'proprodukt' ); ?></span> 
+                    <h5><?php _e( 'Doprava zdarma', 'proprodukt' ); ?></h5> 
+                    <span><?php _e( 'Pri objednávke nad... ', 'proprodukt' ); ?></span> 
                 </div>                         
             </li>                     
             <!-- Money Return -->                     
@@ -266,18 +266,18 @@
                     <i class="lni lni-support"></i> 
                 </div>                         
                 <div class="media-body"> 
-                    <h5><?php _e( '24/7 Support.', 'proprodukt' ); ?></h5> 
-                    <span><?php _e( 'Live Chat Or Call.', 'proprodukt' ); ?></span> 
+                    <h5><?php _e( 'Podpora 24/7.', 'proprodukt' ); ?></h5> 
+                    <span><?php _e( 'Živý chat alebo hovor.', 'proprodukt' ); ?></span> 
                 </div>                         
             </li>                     
             <!-- Support 24/7 -->                     
             <li> 
                 <div class="media-icon"> 
-                    <i class="lni lni-credit-cards"></i> 
+                    <i class="lni lni-tag"></i> 
                 </div>                         
                 <div class="media-body"> 
-                    <h5><?php _e( 'Online Payment.', 'proprodukt' ); ?></h5> 
-                    <span><?php _e( 'Secure Payment Services.', 'proprodukt' ); ?></span> 
+                    <h5><?php _e( 'Lorem ipsum', 'proprodukt' ); ?></h5> 
+                    <span><?php _e( 'Lorem ipsum', 'proprodukt' ); ?></span> 
                 </div>                         
             </li>                     
             <!-- Safe Payment -->                     
@@ -286,8 +286,8 @@
                     <i class="lni lni-reload"></i> 
                 </div>                         
                 <div class="media-body"> 
-                    <h5><?php _e( 'Easy Return.', 'proprodukt' ); ?></h5> 
-                    <span><?php _e( 'Hassle Free Shopping.', 'proprodukt' ); ?></span> 
+                    <h5><?php _e( 'Ľahký návrat.', 'proprodukt' ); ?></h5> 
+                    <span><?php _e( 'Bezproblémové nakupovanie.', 'proprodukt' ); ?></span> 
                 </div>                         
             </li>                     
         </ul>                 
