@@ -12,15 +12,15 @@ Template Name: Kontakt
             <!-- site content -->                     
             <div class="product-details-info col-lg-12 col-12">
 
-                <footer class="footer" style="background-color: #fff"> 
-            <!-- Start Footer Top -->             
-            <div class="footer-top"> 
+                <div  class="co-contact" style="background-color: #fff"> 
+            <!-- Start co-contact Top -->             
+            <div class="co-contact-top"> 
                 <div class="container"> 
                     <div class="inner-content"> 
                         <div class="row"> 
                             <div class="col-lg-3 col-md-4 col-12"> 
-                                <div class="footer-logo"> 
-                                    <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_footer.svg" alt="#"> </a> 
+                                <div class="co-contact-logo"> 
+                                    <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_co-contact.svg" alt="#"> </a> 
                                 </div>                                 
                             </div>                             
                                                             
@@ -28,15 +28,15 @@ Template Name: Kontakt
                     </div>                     
                 </div>                 
             </div>             
-            <!-- End Footer Top -->             
-            <!-- Start Footer Middle -->             
-            <div class="footer-middle"> 
+            <!-- End co-contact Top -->             
+            <!-- Start co-contact Middle -->             
+            <div class="co-contact-middle"> 
                 <div class="container"> 
                     <div class="bottom-inner"> 
                         <div class="row"> 
                             <div class="col-lg-3 col-md-6 col-12"> 
                                 <!-- Single Widget -->                                 
-                                <div class="single-footer f-contact"> 
+                                <div class="single-co-contact f-contact"> 
                                     <h3><?php _e( 'Kontaktné informácie', 'proprodukt' ); ?> </h3> 
                                     <p class="phone"><?php _e( 'Tel: +421 910-999-819', 'proprodukt' ); ?></p> 
                                     <ul> 
@@ -57,7 +57,7 @@ Template Name: Kontakt
                             </div>                             
                             <div class="col-lg-3 col-md-6 col-12"> 
                                 <!-- Single Widget -->                                 
-                                <div class="single-footer our-app"> 
+                                <div class="single-co-contact our-app"> 
                                     <h3><?php _e( 'Sociálne siete', 'proprodukt' ); ?> </h3> 
                                     <ul class="app-btn"> 
                                         <li> 
@@ -72,7 +72,7 @@ Template Name: Kontakt
                             </div>                             
                             <div class="col-lg-3 col-md-6 col-12"> 
                                 <!-- Single Widget -->                                 
-                                <div class="single-footer f-link"> 
+                                <div class="single-co-contact f-link"> 
                                     <!-- cunsom -->                                     
                                     <h3>Všeobené informácie</h3> 
                                     
@@ -87,7 +87,7 @@ Template Name: Kontakt
                             </div>                             
                             <div class="col-lg-3 col-md-6 col-12"> 
                                 <!-- Single Widget -->                                 
-                                <div class="single-footer f-link"> 
+                                <div class="single-co-contact f-link"> 
                                     <!-- cunsom -->                                     
                                     <h3>Môj účet</h3> 
                                                                         
@@ -103,16 +103,16 @@ Template Name: Kontakt
                     </div>                     
                 </div>                 
             </div>             
-            <!-- End Footer Middle -->             
-            <!-- Start Footer Bottom -->             
-            <div class="footer-bottom"> 
+            <!-- End co-contact Middle -->             
+            <!-- Start co-contact Bottom -->             
+            <div class="co-contact-bottom"> 
                 <div class="container"> 
                     <div class="inner-content"> 
                         <div class="row align-items-center"> 
                             <!-- <div class="col-lg-4 col-12">
                             <div class="payment-gateway">
                                 <span>We Accept:</span>
-                                <img src="assets/images/footer/credit-cards-footer.png" alt="#">
+                                <img src="assets/images/co-contact/credit-cards-co-contact.png" alt="#">
                             </div>
                         </div>-->                             
                             <div class="col-lg-12 col-12"> 
@@ -135,8 +135,8 @@ Template Name: Kontakt
                     </div>                     
                 </div>                 
             </div>             
-            <!-- End Footer Bottom -->             
-        </footer>  
+            <!-- End co-contact Bottom -->             
+        </div>  
 
             </div>
         </div>
@@ -149,5 +149,6 @@ Template Name: Kontakt
                             <div class="co-contact">
                                  <!-- Start co-contact Top -->             
               
+
 
 <?php get_footer(); ?>
