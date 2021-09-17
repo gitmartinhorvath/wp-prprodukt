@@ -10,9 +10,11 @@ Template Name: Kontakt
     <div class="container"> 
         <div class="row"> 
             <!-- site content -->                     
-            <div class="product-details-info col-lg-12 col-12">
+            <div class="product-details-info col-lg-12 col-12"> 
+                <div class="single-block"> 
+                    
 
-                <div  class="co-contact" style="background-color: #fff"> 
+                     <co-contact class="co-contact"> 
             <!-- Start co-contact Top -->             
             <div class="co-contact-top"> 
                 <div class="container"> 
@@ -136,19 +138,15 @@ Template Name: Kontakt
                 </div>                 
             </div>             
             <!-- End co-contact Bottom -->             
-        </div>  
-
-            </div>
-        </div>
-    </div>
-</section>
-
-                <div class="single-block"> 
-                    <div class=""> 
-                        <div class="info-body custom-responsive-margin"> 
-                            <div class="co-contact">
-                                 <!-- Start co-contact Top -->             
-              
+        </co-contact>
 
 
-<?php get_footer(); ?>
+
+                </div>                         
+            </div>                     
+            <!--End: site content -->                     
+        </div>                 
+    </div>             
+</div>                 
+
+<?php get_footer( '' ); ?>
