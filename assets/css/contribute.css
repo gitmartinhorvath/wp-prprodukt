@@ -400,14 +400,14 @@ h3{
   co-contact CSS
 ========================================*/
 .co-contact {
-  background-color: #F26622;
+  background-color: #FFF;
   position: relative;
   /* Single co-contact */
   /* End Single co-contact */
 }
 
 .co-contact .co-contact-top .inner-content {
-  padding: 60px 0;
+  padding: 0px 0 0 0 ;
   border-bottom: 1px solid #ffffff26;
 }
 
@@ -425,7 +425,7 @@ h3{
 }
 
 .co-contact .co-contact-top .co-contact-logo a img {
-  width: 200px;
+  width: 120px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -572,7 +572,7 @@ h3{
 }
 
 .co-contact .co-contact-middle {
-  padding-top: 40px;
+  padding-top: 0px;
   padding-bottom: 80px;
 }
 
@@ -632,7 +632,7 @@ h3{
   position: relative;
   margin-bottom: 32px;
   padding-bottom: 15px;
-  color: #fff;
+  color: #444;
   font-size: 17px;
   font-weight: 600;
   line-height: 24px;
@@ -667,7 +667,7 @@ h3{
 }
 
 .co-contact .single-co-contact.f-link ul li a {
-  color: #eeeeee;
+  color: #444;
   font-size: 14px;
   font-weight: 500;
   position: relative;
@@ -679,7 +679,7 @@ h3{
 }
 
 .co-contact .single-co-contact.f-contact .phone {
-  color: #eeeeee;
+  color: #444;
 }
 
 .co-contact .single-co-contact.f-contact ul {
@@ -689,7 +689,7 @@ h3{
 .co-contact .single-co-contact.f-contact ul li {
   display: block;
   margin-bottom: 10px;
-  color: #eeeeee;
+  color: #444;
 }
 
 .co-contact .single-co-contact.f-contact ul li span {
@@ -701,11 +701,11 @@ h3{
 }
 
 .co-contact .single-co-contact.f-contact ul li span {
-  color: #eeeeee;
+  color: #444;
 }
 
 .co-contact .single-co-contact.f-contact .mail a {
-  color: #eeeeee;
+  color: #444;
 }
 
 .co-contact .single-co-contact.f-contact .mail a:hover {

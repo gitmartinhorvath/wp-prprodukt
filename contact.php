@@ -14,7 +14,7 @@ Template Name: Kontakt
                 <div class="single-block"> 
                     
 
-                     <co-contact class="co-contact"> 
+                     <div class="co-contact"> 
             <!-- Start co-contact Top -->             
             <div class="co-contact-top"> 
                 <div class="container"> 
@@ -22,7 +22,7 @@ Template Name: Kontakt
                         <div class="row"> 
                             <div class="col-lg-3 col-md-4 col-12"> 
                                 <div class="co-contact-logo"> 
-                                    <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_co-contact.svg" alt="#"> </a> 
+                                    <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT.svg" alt="#"> </a> 
                                 </div>                                 
                             </div>                             
                                                             
@@ -56,47 +56,44 @@ Template Name: Kontakt
                                     <p class="mail"> <a href="mailto:info@proprodukt.sk"><?php _e( 'info@proprodukt.sk', 'proprodukt' ); ?></a> </p> 
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
-                            </div>                             
+                            </div>
+
                             <div class="col-lg-3 col-md-6 col-12"> 
                                 <!-- Single Widget -->                                 
-                                <div class="single-co-contact our-app"> 
-                                    <h3><?php _e( 'Sociálne siete', 'proprodukt' ); ?> </h3> 
-                                    <ul class="app-btn"> 
-                                        <li> 
-                                            <a href="https://www.facebook.com/Proprodukt.sk" target="_blank"> <i class="lni lni-facebook-filled"></i> <span class="small-title"><?php _e( 'Nasledujte nás', 'proprodukt' ); ?> </span> <span class="big-title"><?php _e( 'Na Facebooku', 'proprodukt' ); ?></span> </a> 
-                                        </li>                                         
-                                        <!-- <li> 
-                                            <a href="#"> <i class="lni lni-youtube"></i> <span class="small-title">Download on the</span> <span class="big-title">Google Play</span> </a> 
-                                        </li>   -->                                         
-                                    </ul>                                     
+                                <div class="single-co-contact f-contact"> 
+                                    <h3><?php _e( 'Lukáš Fabok', 'proprodukt' ); ?><small><br>Konateľ</small> </h3> 
+                                    <p class="phone"><?php _e( 'Tel: +421 910-999-819', 'proprodukt' ); ?></p>                                     
+                                    <p class="mail"> <a href="mailto:info@proprodukt.sk"><?php _e( 'info@proprodukt.sk', 'proprodukt' ); ?></a> </p> 
+                                </div>                                 
+                                <!-- End Single Widget -->                                 
+                            </div> 
+
+                            <div class="col-lg-3 col-md-6 col-12"> 
+                                <!-- Single Widget -->                                 
+                                <div class="single-co-contact f-contact"> 
+                                    <h3><?php _e( 'Ildikó Faboková', 'proprodukt' ); ?><small><br>Komunikácia v anglickom a<br> maďarskom jazyku.</small> </h3> 
+                                    <p class="phone"><?php _e( 'Tel: +421 910-999-819', 'proprodukt' ); ?></p>                                     
+                                    <p class="mail"> <a href="mailto:info@proprodukt.sk"><?php _e( 'info@proprodukt.sk', 'proprodukt' ); ?></a> </p> 
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
                             </div>                             
+                                                         
+                                                        
                             <div class="col-lg-3 col-md-6 col-12"> 
                                 <!-- Single Widget -->                                 
                                 <div class="single-co-contact f-link"> 
                                     <!-- cunsom -->                                     
-                                    <h3>Všeobené informácie</h3> 
-                                    
-                                     <ul>
-                                        <li><a href="https://www.proprodukt.sk/garancia-vratenia-penazi/">Garancia vrátenia peňazí</a></li>
-                                        <li><a href="https://www.proprodukt.sk/obchodne-podmienky/">Obchodné podmienky</a></li>
-                                        <li><a href="https://www.proprodukt.sk/wp-content/uploads/2020/11/Formular-na-odstupenie-od-zmluvy-proprodukt.sk-.pdf">FORMULÁR NA ODSTÚPENIE OD ZMLUVY</a></li>
-                                    </ul>                                     
-                                    
-                                </div>                                 
-                                <!-- End Single Widget -->                                 
-                            </div>                             
-                            <div class="col-lg-3 col-md-6 col-12"> 
-                                <!-- Single Widget -->                                 
-                                <div class="single-co-contact f-link"> 
-                                    <!-- cunsom -->                                     
-                                    <h3>Môj účet</h3> 
+                                    <h3>Odváracie hodiny</h3> 
                                                                         
                                      <ul>
-                                        <li><a href="">Objednávky</a></li>
-                                        <li><a href="">Detaily účtu</a></li>
-                                        <li><a href="">Zabudnuté heslo</a></li>
+                                        <li>Pondelok .........  8:00 - 16:30</li>
+                                        <li>Utorok .............. 8:00 - 16:30</li>
+                                        <li>Streda ..............    8:00 - 16:30</li>
+                                        <li>Štvrtok .............   8:00 - 16:30</li>
+                                        <li>Piatok ..............    8:00 - 16:30</li>
+                                        <li>Sobota - Zatvorené</li>
+                                        <li>Nedeľa - Zatvorené</li>
+                                        
                                     </ul>
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
@@ -105,48 +102,13 @@ Template Name: Kontakt
                     </div>                     
                 </div>                 
             </div>             
-            <!-- End co-contact Middle -->             
-            <!-- Start co-contact Bottom -->             
-            <div class="co-contact-bottom"> 
-                <div class="container"> 
-                    <div class="inner-content"> 
-                        <div class="row align-items-center"> 
-                            <!-- <div class="col-lg-4 col-12">
-                            <div class="payment-gateway">
-                                <span>We Accept:</span>
-                                <img src="assets/images/co-contact/credit-cards-co-contact.png" alt="#">
-                            </div>
-                        </div>-->                             
-                            <div class="col-lg-12 col-12"> 
-                                <div class="copyright"> 
-                                    <p><?php _e( 'Navrhol a vyvinul', 'proprodukt' ); ?><a href="http://martinhorvath.sk/" rel="nofollow" target="_blank"><?php _e( 'www.martinhorvath.sk', 'proprodukt' ); ?></a></p> 
-                                </div>                                 
-                            </div>                             
-                            <!--<div class="col-lg-4 col-12">
-                            <ul class="socila">
-                                <li>
-                                    <span>Follow Us On:</span>
-                                </li>
-                                <li><a href="#"><i class="lni lni-facebook-filled"></i></a></li>
-                                <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
-                                <li><a href="#"><i class="lni lni-instagram"></i></a></li>
-                                <li><a href="#"><i class="lni lni-google"></i></a></li>
-                            </ul>
-                        </div>-->                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </div>             
-            <!-- End co-contact Bottom -->             
-        </co-contact>
-
-
-
-                </div>                         
-            </div>                     
-            <!--End: site content -->                     
-        </div>                 
-    </div>             
-</div>                 
+            <!-- End co-contact Middle -->                          
+        </div>
+    </div>                         
+</div>                     
+    <!--End: site content -->                     
+    </div>                 
+        </div>             
+            </div>                 
 
 <?php get_footer( '' ); ?>
