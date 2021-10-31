@@ -58,17 +58,17 @@
                                 <!-- Hard Wp -->                                 
                                 <div class="top-end"> 
                                     <div class="user"> 
-                                        <a href="#"></a>
+                                        <a href="https://dev.martinhorvath.sk/index.php/my-account/"></a>
                                         <i class="lni lni-user"></i>
                                         <?php _e( 'Môj učet', 'proprodukt' ); ?>
                                     </a>                                     
                                 </div>                                 
                                 <ul class="user-login"> 
                                     <li> 
-                                        <a href="#"><?php _e( 'Prihlásenie', 'proprodukt' ); ?></a> 
+                                        <a href="https://dev.martinhorvath.sk/index.php/my-account/"><?php _e( 'Prihlásenie', 'proprodukt' ); ?></a> 
                                     </li>                                     
                                     <li> 
-                                        <a href="#"><?php _e( 'Registrovať sa', 'proprodukt' ); ?> </a> 
+                                        <a href="https://dev.martinhorvath.sk/index.php/my-account/"><?php _e( 'Registrovať sa', 'proprodukt' ); ?> </a> 
                                     </li>                                     
                                 </ul>                                 
                             </div>                             

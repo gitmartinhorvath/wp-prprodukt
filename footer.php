@@ -10,7 +10,7 @@
                         <div class="row"> 
                             <div class="col-lg-3 col-md-4 col-12"> 
                                 <div class="footer-logo"> 
-                                    <a href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_footer.svg" alt="#"> </a> 
+                                    <a href="https://dev.martinhorvath.sk/"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT_footer.svg" alt="#"> </a> 
                                 </div>                                 
                             </div>                             
                                                             
@@ -67,8 +67,8 @@
                                     <h3>Všeobené informácie</h3> 
                                     
                                      <ul>
-                                        <li><a href="https://www.proprodukt.sk/garancia-vratenia-penazi/">Garancia vrátenia peňazí</a></li>
-                                        <li><a href="https://www.proprodukt.sk/obchodne-podmienky/">Obchodné podmienky</a></li>
+                                        <li><a href="https://dev.martinhorvath.sk/index.php/garancia-vratenia-penazi/">Garancia vrátenia peňazí</a></li>
+                                        <li><a href="https://dev.martinhorvath.sk/index.php/obchodne-podmienky/">Obchodné podmienky</a></li>
                                         <li><a href="https://www.proprodukt.sk/wp-content/uploads/2020/11/Formular-na-odstupenie-od-zmluvy-proprodukt.sk-.pdf">FORMULÁR NA ODSTÚPENIE OD ZMLUVY</a></li>
                                     </ul>                                     
                                     
@@ -82,9 +82,9 @@
                                     <h3>Môj účet</h3> 
                                                                         
                                      <ul>
-                                        <li><a href="">Objednávky</a></li>
-                                        <li><a href="">Detaily účtu</a></li>
-                                        <li><a href="">Zabudnuté heslo</a></li>
+                                        <li><a href="https://dev.martinhorvath.sk/index.php/my-account/orders/">Objednávky</a></li>
+                                        <li><a href="https://dev.martinhorvath.sk/index.php/my-account/edit-account/">Detaily účtu</a></li>
+                                        <li><a href="https://dev.martinhorvath.sk/index.php/my-account/">Zabudnuté heslo</a></li>
                                     </ul>
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
