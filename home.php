@@ -217,7 +217,7 @@
 </section>         
 <!-- End Call Action Area -->         
 <!-- Start Banner Area -->         
-<section class="banner section"> 
+<section class="banner section" style="padding-top: 90px !important;"> 
     <div class="container"> 
         <div class="row"> 
             <div class="col-lg-6 col-md-6 col-12"> 
@@ -226,7 +226,7 @@
                         <h2><?php _e( 'Čistiaca', 'proprodukt' ); ?> <?php _e( 'technika', 'proprodukt' ); ?></h2> 
                         <p><?php _e( 'Lorem, ipsum dolor sit', 'proprodukt' ); ?> <br><?php _e( 'amet consectetur adipisicing elit.', 'proprodukt' ); ?></p> 
                         <div class="button"> 
-                            <a href="product-grids.html" class="btn"><?php _e( 'View Details', 'proprodukt' ); ?></a> 
+                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/" class="btn"><?php _e( 'View Details', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                 </div>                         
@@ -237,7 +237,7 @@
                         <h2><?php _e( 'Profesionálna čistiaca', 'proprodukt' ); ?> <?php _e( 'technika', 'proprodukt' ); ?></h2> 
                         <p><?php _e( 'Lorem, ipsum dolor sit', 'proprodukt' ); ?> <br><?php _e( 'amet consectetur adipisicing elit.', 'proprodukt' ); ?></p> 
                         <div class="button"> 
-                            <a href="product-grids.html" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
+                            <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                 </div>                         
