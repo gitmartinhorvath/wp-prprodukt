@@ -240,7 +240,7 @@ a {
 
 h2 {
     font-size: 30px;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
@@ -422,6 +422,7 @@ h3{
     padding: 40px 0;
     text-align: center;
   }
+  
 }
 
 .co-contact .co-contact-top .co-contact-logo a img {
@@ -888,3 +889,5 @@ h3{
     display: none;
   }
 }
+
+

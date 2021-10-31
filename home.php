@@ -12,7 +12,7 @@
                         <div class="single-slider" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bnr.jpg'); background-position-x: 60%;">
                             <!-- Wp cusmoter # hero -->                                     
                             <div class="content"> 
-                                <h2 class=" d-block "><?php echo get_theme_mod( 'Title', 'Upratovanie<br>domácností' ); ?></h2> 
+                                <h2 class=" d-block "><?php echo get_theme_mod( 'Title', 'ČISTIACE<br>A UPRATOVACIE<br> SLUŽBY' ); ?></h2> 
                                 <p class="d-none d-md-block"><?php echo get_theme_mod( 'subtitle', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.' ); ?></p> 
                                 <div class="button"> 
                                     <?php if ( get_theme_mod( 'button-show' ) ) : ?>
@@ -33,7 +33,7 @@
                         <!-- Start Small Banner -->                                 
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg1.jpg');"> 
                             <div class="content"> 
-                                <h2> <span><?php _e( 'Pre domácnosti', 'proprodukt' ); ?></span> <h3><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
+                                <h2> <span><?php _e( 'Domácnosti', 'proprodukt' ); ?></span> <h3><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
                                 <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/product-category/cistaca/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
@@ -43,7 +43,7 @@
                         <!-- Start Small Banner -->                                 
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg2.jpg');"> 
                             <div class="content"> 
-                                <h2> <span><?php _e( 'Pre firmi', 'proprodukt' ); ?></span> <h3><?php _e( 'Profesionálna', 'proprodukt' ); ?><br><?php _e( 'čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
+                                <h2> <span><?php _e( 'Firmy ', 'proprodukt' ); ?></span> <h3><?php _e( 'Profesionálna', 'proprodukt' ); ?><br><?php _e( 'čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
                                 <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/product-category/profi/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 

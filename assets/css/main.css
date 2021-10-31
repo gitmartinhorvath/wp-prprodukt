@@ -1046,7 +1046,7 @@ top: -1px;
 
 .section-title h2 {
   font-size: 30px;
-  line-height: 35px;
+  line-height: 45px;
   text-transform: capitalize;
   position: relative;
   font-weight: 800;
@@ -2932,7 +2932,7 @@ top: 2px;
 }
 
 .hero-area .hero-slider .single-slider .content {
-  padding: 20px 365px 20px 50px;
+  padding: 20px 430px 20px 50px;
   position: absolute;
   left: 0;
   top: 50%;
@@ -2989,7 +2989,7 @@ top: 2px;
 
 @media (max-width: 767px) {
   .hero-area .hero-slider .single-slider .content h2 {
-    font-size: 20px;
+    font-size: 26px !important;
   }
 }
 

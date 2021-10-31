@@ -187,7 +187,7 @@
                             <h5 class="title"><?php _e( 'Nasleduj nás:', 'proprodukt' ); ?></h5> 
                             <ul> 
                                 <li> 
-                                    <a href="https://www.facebook.com/Proprodukt.sk"><i class="lni lni-facebook-filled"></i></a> 
+                                    <a href="https://www.facebook.com/Proprodukt.sk" target="_blank"><i class="lni lni-facebook-filled"></i></a> 
                                 </li>                                 
                                 <!-- <li> 
                                     <a href="#"><i class="lni lni-twitter-original"></i></a> 
