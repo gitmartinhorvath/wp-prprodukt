@@ -26,11 +26,7 @@ function proprodukt_setup() {
     set_post_thumbnail_size( 825, 510, true );
 
     // Add menus.
-    register_nav_menus( array(
-        'primary' => __( 'Primary Menu', 'proprodukt' ),
-        
-    ) );
-
+ 
 /*
      * Register custom menu locations
      */
@@ -456,7 +452,7 @@ require_once "inc/wp_smart_navwalker.php";
     /* Pinegrow generated Include Resources End */
 
     register_sidebar( array(
-            'name' => __( 'Content Pages Right', 'ready_ecommerce' ),
+            'name' => __( 'Menu pre produkty', 'ready_ecommerce' ),
             'id' => 'sidebar-5',
             'description' => __( 'Right sidebar area for content pages only. Not availabe at products or catalogue pages', 'ready_ecommerce' ),
             'before_widget' => '<aside id="%1$s" class="widget %2$s">',

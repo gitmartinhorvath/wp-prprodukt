@@ -158,27 +158,32 @@
                             </div>                             
                             <!-- End Mega Menu  -->                             
                             <!--End:  Dinamic WP - | Category menu -->                             
-                            <!-- Start Navbar -->                             
-                            <nav class="navbar navbar-expand-lg"> 
-                                <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-                                    <span class="toggler-icon"></span> 
-                                    <span class="toggler-icon"></span> 
-                                    <span class="toggler-icon"></span> 
-                                </button>                                 
-                                <!-- Dinamic WP - | Primary menu  -->                                 
-                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent"> 
-                                    <?php wp_nav_menu( array(
-                                            'menu' => 'primary',
-                                            'menu_class' => 'navbar-nav ms-auto',
-                                            'menu_id' => 'nav',
-                                            'container' => '',
-                                            'fallback_cb' => 'wp_bootstrap4_navwalker::fallback',
-                                            'walker' => new wp_bootstrap4_navwalker()
-                                    ) ); ?> 
-                                </div>                                 
-                                <!-- Dinamic WP - | Primary menu  -->                                 
-                            </nav>                             
-                            <!-- End Navbar -->                             
+                            <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                        <a href="index.html" class="" aria-label="Toggle navigation">Domov</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="index.html" class="" aria-label="Toggle navigation">Obchod</a>
+                                    </li>
+ 
+                                    <li class="nav-item">
+                                        <a href="#" class="" aria-label="Toggle navigation">kontakt</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav>
+                        <!-- End Navbar -->                            
                         </div>                         
                     </div>                     
                     <div class="col-lg-4 col-md-6 col-12"> 
