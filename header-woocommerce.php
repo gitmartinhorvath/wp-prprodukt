@@ -12,6 +12,7 @@
     </head>     
     <body class="<?php echo implode(' ', get_body_class()); ?>">
         <?php if( function_exists( 'wp_body_open' ) ) wp_body_open(); ?> 
+        
         <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
@@ -160,6 +161,7 @@
                                     <li class="nav-item">
                                         <a href="#" class="" aria-label="Toggle navigation">kontakt</a>
                                     </li>
+                                    
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav>

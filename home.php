@@ -271,15 +271,7 @@
                 </div>                         
             </li>                     
             <!-- Support 24/7 -->                     
-            <li> 
-                <div class="media-icon"> 
-                    <i class="lni lni-tag"></i> 
-                </div>                         
-                <div class="media-body"> 
-                    <h5><?php _e( 'Lorem ipsum', 'proprodukt' ); ?></h5> 
-                    <span><?php _e( 'Lorem ipsum', 'proprodukt' ); ?></span> 
-                </div>                         
-            </li>                     
+                           
             <!-- Safe Payment -->                     
             <li> 
                 <div class="media-icon"> 
