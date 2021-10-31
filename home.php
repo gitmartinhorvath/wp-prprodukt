@@ -34,7 +34,7 @@
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg1.jpg');"> 
                             <div class="content"> 
                                 <h2> <span><?php _e( 'Domácnosti', 'proprodukt' ); ?></span> <h3><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
-                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/product-category/cistaca/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
+                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
                         <!-- End Small Banner -->                                 
@@ -44,7 +44,7 @@
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg2.jpg');"> 
                             <div class="content"> 
                                 <h2> <span><?php _e( 'Firmy ', 'proprodukt' ); ?></span> <h3><?php _e( 'Profesionálna', 'proprodukt' ); ?><br><?php _e( 'čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
-                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/product-category/profi/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
+                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://dev.martinhorvath.sk/index.php/product-category/profi/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
                         <!-- End Small Banner -->                                 

@@ -179,7 +179,6 @@ label {
 
 
 .section {
-    padding-top: 30px;
     padding-bottom: 90px;
     position: relative;
     padding-left: 0px !important;
@@ -888,6 +887,17 @@ h3{
   .co-contact .co-contact-bottom .socila li span {
     display: none;
   }
+}
+
+.section-title {
+  padding: 20px 250px;
+}
+
+.woocommerce .quantity .qty {
+  width: 4.631em;
+  text-align: center;
+  color: black;
+  background-color: ;
 }
 
 

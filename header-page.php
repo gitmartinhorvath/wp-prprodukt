@@ -11,17 +11,7 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <meta content="Pinegrow Theme Converter for WordPress" name="generator">
         <?php wp_head(); ?>
-            <!-- Smartsupp Live Chat script -->
-            <script type="text/javascript">
-            var _smartsupp = _smartsupp || {};
-            _smartsupp.key = '1d0ce7e7db3138fbfc846afc0c7f2f4500f44d7b';
-            window.smartsupp||(function(d) {
-            var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-            s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-            c.type='text/javascript';c.charset='utf-8';c.async=true;
-            c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-            })(document);
-            </script>
+            
     </head>     
     <body class="<?php echo implode(' ', get_body_class()); ?>">
         <?php if( function_exists( 'wp_body_open' ) ) wp_body_open(); ?> 
@@ -161,16 +151,16 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     
-                                    <li class="nav-item">
-                                        <a href="index.html" class="" aria-label="Toggle navigation">Domov</a>
+                                <li class="nav-item">
+                                        <a href="https://dev.martinhorvath.sk/" class="" aria-label="Toggle navigation">Domov</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="index.html" class="" aria-label="Toggle navigation">Obchod</a>
+                                        <a href="https://dev.martinhorvath.sk/index.php/shop/" class="" aria-label="Toggle navigation">Obchod</a>
                                     </li>
  
                                     <li class="nav-item">
-                                        <a href="#" class="" aria-label="Toggle navigation">kontakt</a>
+                                        <a href="https://dev.martinhorvath.sk/index.php/kontakt/" class="" aria-label="Toggle navigation">kontakt</a>
                                     </li>
                                 </ul>
                             </div> <!-- navbar collapse -->
@@ -209,7 +199,7 @@
                         </div>                         
                     </div>                     
                     <div class="col-lg-6 col-md-6 col-12"> 
-                        <?php $breadcrumbs = PG_Helper::getBreadcrumbs( 'parents', true, 'Home'); ?>
+                        <?php $breadcrumbs = PG_Helper::getBreadcrumbs( 'parents', true, 'Domov'); ?>
                         <?php if( !empty( $breadcrumbs ) ) : ?>
                             <ul class="breadcrumb-nav" cms-breadcrumbs-home cms-breadcrumbs-item="a" cms-breadcrumbs-separator=".lni"> 
                                 <li>
