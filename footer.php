@@ -127,9 +127,6 @@
             </div>             
             <!-- End Footer Bottom -->             
         </footer>         
-        <!--/ End Footer Area -->         
-        <!-- ========================= scroll-top ========================= -->         
-        <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a> 
-        <!-- ========================= JS here ========================= -->                                                      
+                                                             
     </footer>     
 </body>

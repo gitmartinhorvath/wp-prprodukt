@@ -2436,7 +2436,7 @@ top: 2px;
 @media (max-width: 767px) {
   .header .nav-social {
     position: relative;
-    margin-top: -50px;
+    margin-top: -60px;
   }
 }
 

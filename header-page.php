@@ -11,7 +11,17 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <meta content="Pinegrow Theme Converter for WordPress" name="generator">
         <?php wp_head(); ?>
-            
+        <!-- Smartsupp Live Chat script -->
+        <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '1d0ce7e7db3138fbfc846afc0c7f2f4500f44d7b';
+        window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+        })(document);
+        </script>    
     </head>     
     <body class="<?php echo implode(' ', get_body_class()); ?>">
         <?php if( function_exists( 'wp_body_open' ) ) wp_body_open(); ?> 

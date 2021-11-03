@@ -85,48 +85,40 @@
         </section>
         <section class="shipping-info" style="background-color: #fff;"> 
             <div class="container"> 
-                <ul> 
-                    <!-- Free Shipping -->                     
-                    <li> 
-                        <div class="media-icon"> 
-                            <i class="lni lni-delivery"></i> 
-                        </div>                         
-                        <div class="media-body"> 
-                            <h5>Free Shipping</h5> 
-                            <span>On order over $99</span> 
-                        </div>                         
-                    </li>                     
-                    <!-- Money Return -->                     
-                    <li> 
-                        <div class="media-icon"> 
-                            <i class="lni lni-support"></i> 
-                        </div>                         
-                        <div class="media-body"> 
-                            <h5>24/7 Support.</h5> 
-                            <span>Live Chat Or Call.</span> 
-                        </div>                         
-                    </li>                     
-                    <!-- Support 24/7 -->                     
-                    <li> 
-                        <div class="media-icon"> 
-                            <i class="lni lni-credit-cards"></i> 
-                        </div>                         
-                        <div class="media-body"> 
-                            <h5>Online Payment.</h5> 
-                            <span>Secure Payment Services.</span> 
-                        </div>                         
-                    </li>                     
-                    <!-- Safe Payment -->                     
-                    <li> 
-                        <div class="media-icon"> 
-                            <i class="lni lni-reload"></i> 
-                        </div>                         
-                        <div class="media-body"> 
-                            <h5>Easy Return.</h5> 
-                            <span>Hassle Free Shopping.</span> 
-                        </div>                         
-                    </li>                     
-                </ul>                 
+            <ul> 
+                <!-- Free Shipping -->                     
+                <li> 
+                    <div class="media-icon"> 
+                        <i class="lni lni-delivery"></i> 
+                    </div>                         
+                    <div class="media-body"> 
+                        <h5><?php _e( 'Doprava zdarma', 'proprodukt' ); ?></h5> 
+                        <span><?php _e( 'Pri objednávke nad... ', 'proprodukt' ); ?></span> 
+                    </div>                         
+                </li>                     
+                <!-- Money Return -->                     
+                <li> 
+                    <div class="media-icon"> 
+                        <i class="lni lni-support"></i> 
+                    </div>                         
+                    <div class="media-body"> 
+                        <h5><?php _e( 'Podpora 24/7.', 'proprodukt' ); ?></h5> 
+                        <span><?php _e( 'Živý chat alebo hovor.', 'proprodukt' ); ?></span> 
+                    </div>                         
+                </li>                     
+                <!-- Support 24/7 -->                     
+                            
+                <!-- Safe Payment -->                     
+                <li> 
+                    <div class="media-icon"> 
+                        <i class="lni lni-reload"></i> 
+                    </div>                         
+                    <div class="media-body"> 
+                        <h5><?php _e( 'Ľahký návrat.', 'proprodukt' ); ?></h5> 
+                        <span><?php _e( 'Bezproblémové nakupovanie.', 'proprodukt' ); ?></span> 
+                    </div>                         
+                </li>                     
+            </ul>               
             </div>             
         </section>
                
