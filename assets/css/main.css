@@ -1590,7 +1590,7 @@ top: -1px;
 }
 
 .header .topbar .top-end .user-login li a:hover {
-  color: #3DBFBB;
+  color: #FBA92A;
 }
 
 .header .header-middle {
@@ -2338,7 +2338,7 @@ top: 2px;
   position: absolute;
   left: 0;
   top: 68px;
-  width: 241px;
+  width: 300px;
   height: auto;
   border: 1px solid #eee;
   background-color: #fff;

@@ -154,16 +154,16 @@
                                 <span class="cat-button"><i class="lni lni-menu"></i><?php _e( 'Všetky kategórie', 'proprodukt' ); ?></span> 
                                 <ul class="sub-category"> 
                                     <li>
-                                        <a href="product-grids.html"><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></a>
+                                        <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/"><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></a>
                                     </li>                                     
                                     <li>
-                                        <a href="product-grids.html"><?php _e( 'Profesionálna čistiaca technika', 'proprodukt' ); ?></a>
+                                        <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/"><?php _e( 'Profesionálna čistiaca technika', 'proprodukt' ); ?></a>
                                     </li>                                     
                                     <li>
-                                        <a href="product-grids.html"><?php _e( 'Upratovacie služby', 'proprodukt' ); ?></a>
+                                        <a href="https://www.proupratovanie.sk/"><?php _e( 'Upratovacie služby', 'proprodukt' ); ?></a>
                                     </li>                                     
                                     <li>
-                                        <a href="product-grids.html"><?php _e( 'Požičovňa čistiacej techniky', 'proprodukt' ); ?></a>
+                                        <a href="https://dev.martinhorvath.sk/"><?php _e( 'Požičovňa čistiacej techniky', 'proprodukt' ); ?></a>
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
