@@ -72,7 +72,7 @@ Template Name: Kontakt
                                 <!-- Single Widget -->                                 
                                 <div class="single-co-contact f-contact"> 
                                     <h3><?php _e( 'Ildikó Faboková', 'proprodukt' ); ?><small><br>Komunikácia v anglickom a<br> maďarskom jazyku.</small> </h3> 
-                                    <p class="phone"><?php _e( 'Tel: +421 910-999-819', 'proprodukt' ); ?></p>                                     
+                                    <p class="phone"><?php _e( 'Tel: +421 904-419-471', 'proprodukt' ); ?></p>                                     
                                     <p class="mail"> <a href="mailto:info@proprodukt.sk"><?php _e( 'info@proprodukt.sk', 'proprodukt' ); ?></a> </p> 
                                 </div>                                 
                                 <!-- End Single Widget -->                                 
