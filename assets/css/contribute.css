@@ -950,10 +950,8 @@ margin: 10px;;
 } }
 
 .header .mega-category-menu .sub-category li a {
-  color: #081828;
-  text-transform: none;
-  font-size: 14px;
-  position: relative;
-  width: 100%;
-  padding: 8px 30px;
 
+  text-transform: none;
+}
+  
+  
