@@ -100,7 +100,7 @@
                 <div class="row align-items-center"> 
                     <div class="col-lg-3 col-md-3 col-7"> 
                         <!-- Start Header Logo -->                         
-                        <a class="navbar-brand" href="index.html"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT.svg" alt="Logo"> </a> 
+                        <a class="navbar-brand" href="https://dev.martinhorvath.sk/"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT.svg" alt="Logo"> </a> 
                         <!-- End Header Logo -->                         
                     </div>                     
                     <div class="col-lg-5 col-md-7 d-xs-none"> 
@@ -126,7 +126,7 @@
                             <!-- nav-hotline -->                             
                             <div class="nav-hotline"> 
                                 <i class="lni lni-phone"></i> 
-                                <h3><a href="tel:+421910999819" class="link"><?php _e( 'Horúca linka:', 'proprodukt' ); ?> <span><?php _e( '+421 910-999-819', 'proprodukt' ); ?></span> </a> </h3> 
+                                <h3><a href="tel:+421910999819" class="link"><?php _e( 'Kontakt:', 'proprodukt' ); ?> <span><?php _e( '+421 910-999-819', 'proprodukt' ); ?></span> </a> </h3> 
                             </div>                             
                             <!-- End:  nav-hotline -->                             
                             <!-- navbar-cart - cart-items -->                             

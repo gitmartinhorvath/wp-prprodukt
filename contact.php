@@ -80,7 +80,7 @@ Template Name: Kontakt
                                                          
                                                         
                             <div class="col-lg-3 col-md-6 col-12"> 
-                                <!-- Single Widget -->                                 
+                                <!-- Single Widget -->                                 Stránka kontaktu - pridať číslo na Ildiko
                                 <div class="single-co-contact f-link"> 
                                     <!-- cunsom -->                                     
                                     <h3>Odváracie hodiny</h3> 
