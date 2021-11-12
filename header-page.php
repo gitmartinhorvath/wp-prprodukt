@@ -45,7 +45,7 @@
         <!-- Start Header Area -->         
         <header class="header navbar-area"> 
             <!-- Start Topbar -->             
-            <div class="topbar"> 
+            <div class="topbar  d-none d-md-block"> 
                 <div class="container"> 
                     <div class="row align-items-center"> 
                         <div class="col-lg-4 col-md-4 col-12"> 

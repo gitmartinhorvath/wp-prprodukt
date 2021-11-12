@@ -121,7 +121,7 @@
                                 <!-- nav-hotline -->                                 
                                 <div class="nav-hotline"> 
                                     <i class="lni lni-phone"></i> 
-                                    <h3><a href="tel:+421910999819" class="link"><?php _e( 'Kontakt:', 'proprodukt' ); ?> <span><?php _e( '+421 910-999-819', 'proprodukt' ); ?></span> </a> </h3> 
+                                    <h3><a href="tel:+421910999819" class="link"><?php _e( 'Kontaktgit s:', 'proprodukt' ); ?> <span><?php _e( '+421 910-999-819', 'proprodukt' ); ?></span> </a> </h3> 
                                 </div>                                 
                                 <!-- End:  nav-hotline -->                                 
                                 <!-- navbar-cart - cart-items -->                                 
