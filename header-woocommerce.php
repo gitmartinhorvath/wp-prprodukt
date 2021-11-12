@@ -80,17 +80,17 @@
                                 <!-- Hard Wp -->                                 
                                 <div class="top-end"> 
                                     <div class="user"> 
-                                        <a href="https://dev.martinhorvath.sk/index.php/my-account/"></a>
+                                        <a href="https://www.proprodukt.sk/index.php/my-account/"></a>
                                         <i class="lni lni-user"></i>
                                         <?php _e( 'Môj učet', 'proprodukt' ); ?>
                                     </a>                                     
                                 </div>                                 
                                 <ul class="user-login"> 
                                     <li> 
-                                        <a href="https://dev.martinhorvath.sk/index.php/my-account/"><?php _e( 'Prihlásenie', 'proprodukt' ); ?></a> 
+                                        <a href="https://www.proprodukt.sk/index.php/my-account/"><?php _e( 'Prihlásenie', 'proprodukt' ); ?></a> 
                                     </li>                                     
                                     <li> 
-                                        <a href="https://dev.martinhorvath.sk/index.php/my-account/"><?php _e( 'Registrovať sa', 'proprodukt' ); ?> </a> 
+                                        <a href="https://www.proprodukt.sk/index.php/my-account/"><?php _e( 'Registrovať sa', 'proprodukt' ); ?> </a> 
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
@@ -106,7 +106,7 @@
                     <div class="row align-items-center"> 
                         <div class="col-lg-3 col-md-3 col-7"> 
                             <!-- Start Header Logo -->                             
-                            <a class="navbar-brand" href="https://dev.martinhorvath.sk/"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT.svg" alt="Logo"> </a> 
+                            <a class="navbar-brand" href="https://www.proprodukt.sk/"> <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo/LOGO_PROPRODUKT.svg" alt="Logo"> </a> 
                             <!-- End Header Logo -->                             
                         </div>                         
                         <div class="col-lg-5 col-md-7 d-xs-none"> 
@@ -173,15 +173,15 @@
                                 <ul id="nav" class="navbar-nav ms-auto">
 
                                     <li class="nav-item">
-                                        <a href="https://dev.martinhorvath.sk/" class="" aria-label="Toggle navigation">Domov</a>
+                                        <a href="https://www.proprodukt.sk/" class="" aria-label="Toggle navigation">Domov</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="https://dev.martinhorvath.sk/index.php/shop/" class="" aria-label="Toggle navigation">Obchod</a>
+                                        <a href="https://www.proprodukt.sk/obchod/" class="" aria-label="Toggle navigation">Obchod</a>
                                     </li>
  
                                     <li class="nav-item">
-                                        <a href="https://dev.martinhorvath.sk/index.php/kontakt/" class="" aria-label="Toggle navigation">kontakt</a>
+                                        <a href="https://www.proprodukt.sk/index.php/kontakt/" class="" aria-label="Toggle navigation">kontakt</a>
                                     </li>
                                     
                                 </ul>

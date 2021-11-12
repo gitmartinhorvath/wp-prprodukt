@@ -34,7 +34,7 @@
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg1.jpg');"> 
                             <div class="content"> 
                                 <h2> <span><?php _e( 'Domácnosti', 'proprodukt' ); ?></span> <h3><?php _e( 'Čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
-                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
+                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/index.php/product-category/cistaca/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
                         <!-- End Small Banner -->                                 
@@ -44,7 +44,7 @@
                         <div class="hero-small-banner" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero/slider-bg2.jpg');"> 
                             <div class="content"> 
                                 <h2> <span><?php _e( 'Firmy ', 'proprodukt' ); ?></span> <h3><?php _e( 'Profesionálna', 'proprodukt' ); ?><br><?php _e( 'čistiaca technika', 'proprodukt' ); ?></h3> </h2> 
-                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://dev.martinhorvath.sk/index.php/product-category/profi/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
+                                <span class="button" style="margin-top: 20px;"> <a class="btn" href="https://www.proprodukt.sk/index.php/product-category/profi/"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> </span> 
                             </div>                                     
                         </div>                                 
                         <!-- End Small Banner -->                                 
@@ -75,7 +75,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-1.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/vysavace/cistiaca-technika-vysavace-mokro-suche-vysavace/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/vysavace/cistiaca-technika-vysavace-mokro-suche-vysavace/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -90,7 +90,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-2.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/tepovace-na-zakladne-cistenie/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/tepovace-na-zakladne-cistenie/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -105,7 +105,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-3.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/vysavace/cistiaca-technika/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/vysavace/cistiaca-technika/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -120,7 +120,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-4.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/tepovace-na-zakladne-cistenie/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/tepovace-na-zakladne-cistenie/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -135,7 +135,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-5.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/cistenie-teras/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/cistenie-teras/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -150,7 +150,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-6.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/mopy-drziaky-a-handry-profi/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/profi/mopy-drziaky-a-handry-profi/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -165,7 +165,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-7.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/upratovacie-voziky-profi/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/profi/upratovacie-voziky-profi/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -180,7 +180,7 @@
                     <div class="product-image"> 
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/products/product-8.jpg" alt="#"> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/zametacie-stroje-profi/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/profi/zametacie-stroje-profi/" class="btn"><i class="lni lni-cart"></i><?php _e( 'Nakupovať', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
@@ -226,7 +226,7 @@
                         <h2><?php _e( 'Čistiaca', 'proprodukt' ); ?> <?php _e( 'technika', 'proprodukt' ); ?></h2> 
                         <p><?php _e( 'Do domácnosti ', 'proprodukt' ); ?></p> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                 </div>                         
@@ -237,7 +237,7 @@
                         <h2><?php _e( 'Profesionálna čistiaca', 'proprodukt' ); ?> <?php _e( 'technika', 'proprodukt' ); ?></h2> 
                         <p><?php _e( ' Pre firmy ', 'proprodukt' ); ?></p> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
+                            <a href="https://www.proprodukt.sk/index.php/product-category/profi/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                 </div>                         
