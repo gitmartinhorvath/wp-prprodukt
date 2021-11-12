@@ -79,7 +79,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href=""><?php _e( 'Vysávače', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/vysavace/cistiaca-technika-vysavace-mokro-suche-vysavace/"><?php _e( 'Vysávače', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -94,7 +94,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Tepovače na základné čistenie', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/tepovace-na-zakladne-cistenie/"><?php _e( 'Tepovače na základné čistenie', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -109,7 +109,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Vysávače do domácnosti', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/vysavace/cistiaca-technika"><?php _e( 'Vysávače do domácnosti', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -124,7 +124,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Tepovače', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/tepovace-na-zakladne-cistenie/"><?php _e( 'Tepovače', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -139,7 +139,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Čistenie terás', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/cistaca/cistenie-teras/"><?php _e( 'Čistenie terás', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -154,7 +154,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Mopy, držiaky a handry', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/profi/mopy-drziaky-a-handry-profi/"><?php _e( 'Mopy, držiaky a handry', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -169,7 +169,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Upratovacie vozíky', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/profi/upratovacie-voziky-profi/"><?php _e( 'Upratovacie vozíky', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
@@ -184,7 +184,7 @@
                         </div>                                 
                     </div>                             
                     <div class="product-info"> 
-                        <h4 class="title text-center"> <a href="product-grids.html"><?php _e( 'Zametacie stroje', 'proprodukt' ); ?></a> </h4> 
+                        <h4 class="title text-center"> <a href="https://www.proprodukt.sk/index.php/product-category/profi/zametacie-stroje-profi/"><?php _e( 'Zametacie stroje', 'proprodukt' ); ?></a> </h4> 
                     </div>                             
                 </div>                         
                 <!-- End Single Product -->                         
