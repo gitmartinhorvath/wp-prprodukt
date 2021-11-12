@@ -953,5 +953,13 @@ margin: 10px;;
 
   text-transform: none;
 }
+
+.woocommerce .wishlist-title {
+  margin-bottom: 30px;
+  min-width: 100%;
+}
+.item-details {
+  background-color: #fff;
+}
   
   

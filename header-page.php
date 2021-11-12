@@ -144,7 +144,7 @@
                             <!-- navbar-cart - cart-items -->                             
                             <div class="navbar-cart"> 
                                 <div class="wishlist"> 
-                                    <a href="#"> <i class="lni lni-heart"></i> </a> 
+                                    <a href="https://www.proprodukt.sk/wishlist/"> <i class="lni lni-heart"></i> </a> 
                                 </div>                                 
                                 <div class="cart-items"> 
                                     <a href="#" class="main-btn"> <i class="lni lni-cart"></i> </a> 
