@@ -1267,7 +1267,7 @@ top: -1px;
 
 .button .btn {
   display: inline-block;
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 14px;
   font-weight: 600;
   padding: 13px 30px;

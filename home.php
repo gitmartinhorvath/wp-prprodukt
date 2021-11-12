@@ -224,9 +224,9 @@
                 <div class="single-banner" style="background-image:url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/banner/banner-1-bg.jpg')"> 
                     <div class="content"> 
                         <h2><?php _e( 'Čistiaca', 'proprodukt' ); ?> <?php _e( 'technika', 'proprodukt' ); ?></h2> 
-                        <p><?php _e( 'Lorem, ipsum dolor sit', 'proprodukt' ); ?> <br><?php _e( 'amet consectetur adipisicing elit.', 'proprodukt' ); ?></p> 
+                        <p><?php _e( 'Do domácnosti ', 'proprodukt' ); ?></p> 
                         <div class="button"> 
-                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/" class="btn"><?php _e( 'View Details', 'proprodukt' ); ?></a> 
+                            <a href="https://dev.martinhorvath.sk/index.php/product-category/cistaca/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
                         </div>                                 
                     </div>                             
                 </div>                         
@@ -235,7 +235,7 @@
                 <div class="single-banner custom-responsive-margin" style="background-image:url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/banner/banner-2-bg.jpg')"> 
                     <div class="content"> 
                         <h2><?php _e( 'Profesionálna čistiaca', 'proprodukt' ); ?> <?php _e( 'technika', 'proprodukt' ); ?></h2> 
-                        <p><?php _e( 'Lorem, ipsum dolor sit', 'proprodukt' ); ?> <br><?php _e( 'amet consectetur adipisicing elit.', 'proprodukt' ); ?></p> 
+                        <p><?php _e( ' Pre firmy ', 'proprodukt' ); ?></p> 
                         <div class="button"> 
                             <a href="https://dev.martinhorvath.sk/index.php/product-category/profi/" class="btn"><?php _e( 'Nakupuj teraz', 'proprodukt' ); ?></a> 
                         </div>                                 
