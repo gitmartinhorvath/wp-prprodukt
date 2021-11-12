@@ -3218,8 +3218,8 @@ top: 2px;
     Product CSS
 ========================================*/
 /* Single Product*/
- {
-  border: 1px solid #eee;
+.single-product{
+border: 1px solid #eee;
 border-radius: 0px;
 -webkit-transition: all 0.4s ease;
 transition: all 0.4s ease;

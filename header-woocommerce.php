@@ -146,7 +146,7 @@
                     <div class="nav-inner">
                         <!-- Start Mega Category Menu -->
                         <div class="mega-category-menu" style="cursor: auto">
-                            <span class="cat-button"><i class="lni lni-angle-double-down"></i><?php _e( 'Všetky kategórie', 'proprodukt' ); ?></span>
+                            <span class="cat-button"><?php _e( 'Kategórie &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 'proprodukt' ); ?></span>
                         </div>
                         <!-- End Mega Category Menu -->
                         <!-- Start Navbar -->

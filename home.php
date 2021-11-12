@@ -16,7 +16,7 @@
                                 <p class="d-none d-md-block"><?php echo get_theme_mod( 'subtitle', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.' ); ?></p> 
                                 <div class="button"> 
                                     <?php if ( get_theme_mod( 'button-show' ) ) : ?>
-                                        <a href="<?php echo get_theme_mod( 'button-link', 'product-grids.html' ); ?>" target="_blank" class="btn"><?php echo get_theme_mod( 'button-txt', __( 'Dozvedieť sa viac', 'proprodukt' ) ); ?></a>
+                                        <a href="<?php echo get_theme_mod( 'button-link', 'product-grids.html' ); ?>" class="btn"><?php echo get_theme_mod( 'button-txt', __( 'Dozvedieť sa viac', 'proprodukt' ) ); ?></a>
                                     <?php endif; ?> 
                                 </div>                                         
                             </div>
