@@ -165,10 +165,10 @@
                                         <a href="https://www.proprodukt.sk/index.php/product-category/profi/"><?php _e( 'Profesionálna čistiaca technika', 'proprodukt' ); ?></a>
                                     </li>                                     
                                     <li>
-                                        <a href="https://www.proupratovanie.sk/"><?php _e( 'Upratovacie služby', 'proprodukt' ); ?></a>
+                                        <a href="https://www.proprodukt.sk/upratovacie-sluzby/"><?php _e( 'Upratovacie služby', 'proprodukt' ); ?></a>
                                     </li>                                     
                                     <li>
-                                        <a href="https://www.proprodukt.sk/"><?php _e( 'Požičovňa čistiacej techniky', 'proprodukt' ); ?></a>
+                                        <a href="https://www.proprodukt.sk/pozicovna-cistiacej-techniky/"><?php _e( 'Požičovňa čistiacej techniky', 'proprodukt' ); ?></a>
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
