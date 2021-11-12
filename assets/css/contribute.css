@@ -424,6 +424,7 @@ h3{
   
 }
 
+
 .co-contact .co-contact-top .co-contact-logo a img {
   width: 120px;
 }
@@ -431,6 +432,7 @@ h3{
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .co-contact .co-contact-top .co-contact-logo a img {
     width: 190px;
+  }
   }
 }
 
@@ -564,6 +566,7 @@ h3{
   .co-contact .co-contact-top .co-contact-newsletter .newsletter-form .button .btn {
     width: 100%;
   }
+  
 }
 
 .co-contact .co-contact-top .co-contact-newsletter .newsletter-form .button .btn:hover {
@@ -654,6 +657,7 @@ h3{
     left: 50%;
     margin-left: -20px;
   }
+
 }
 
 .co-contact .single-co-contact.f-link ul li {
@@ -947,6 +951,11 @@ table.wishlist_table {
   box-shadow: none;
   border-radius: 50%;
 }
+
+@media (max-width: 576px) {.single-product{
+  margin: 10px;;
+} }
+
 
 
 
