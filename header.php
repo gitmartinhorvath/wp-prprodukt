@@ -11,8 +11,13 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>                   
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="author" content="www.martinhorvath.sk"> 
+
+        <meta name="msapplication-TileColor" content="#3DBFBB">
+        <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#3DBFBB">
         <!-- ========================= CSS here ========================= -->                                                               
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        
         <?php wp_head(); ?>
         <!-- Smartsupp Live Chat script -->
         <script type="text/javascript">

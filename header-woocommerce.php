@@ -1,14 +1,25 @@
 <!DOCTYPE html> 
-<!--  Converted from HTML to WordPress with Pinegrow Theme Converter for WordPress. https://pinegrow.com/theme-converter-for-wordpress  -->
+
+<!--  Converted from HTML to WordPress -- www.martinhorvath.sk -->
+<!--  DESIGNED & DEVELOPED by martinhorvath.sk
+            
+        Website:        http://martinhorvath.sk/
+        Email:          martinhorvath@outlook.sk
+-->
 <html class="no-js" <?php language_attributes(); ?>> 
     <head> 
         <meta charset="<?php bloginfo( 'charset' ); ?>"/> 
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>                   
-        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <meta name="msapplication-TileColor" content="#3DBFBB">
+        <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#3DBFBB">
         <!-- ========================= CSS here ========================= -->                                                               
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-        <meta content="Pinegrow Theme Converter for WordPress" name="generator">
         <?php wp_head(); ?>
+
+
         <!-- Smartsupp Live Chat script -->
         <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
